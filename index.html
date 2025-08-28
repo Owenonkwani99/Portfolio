@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF -8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/402cc0b31a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm <span>Owen</span><br>Onkwani from Kenya</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/background-1.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p> I'm a web developer with a strong foundation in HTML, CSS, JavaScript,
+                            and hands-on experience with React and WordPress. I specialize in building
+                            responsive layouts, intuitive user interfaces, and dynamic, database-driven
+                            applications. I also work with tools and technologies like Tailwind CSS, PHP, 
+                            MySQL, Git, and RESTful APIs, and have growing experience with Next.js, TypeScript,
+                            and Laravel.
+                            My goal is to keep learning and crafting visually engaging, high-performing websites
+                            and web apps that solve real problems and deliver great user experiences.
+                        </p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Front-end</span><br>HTML, CSS, SASS, React, Next.js, Typescript, Tailwind, Jest.</li>
+                                    <li><span>Back-end</span><br>Php, Laravel, MySQL, Git.</li>
+                                    <li><span>Additional skills</span><br>Wordpress, Express.js, Node.js, RESTful APIs.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2024</span><br>Internship at Kapu Digital Limited</li>
+                                    <li><span>2025</span><br>Web developer at Techkey Cybernetics</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Laracast</span><br>Laravel 11 course</li>
+                                    <li><span>Laracast</span><br>PHP for Beginners</li>                      
+                                    <li><span>FreeCodeCamp.org</span><br>Learn Tailwind CSS</li>
+                                    <li><span>FreeCodeCamp.org</span><br>React Course</li>
+                                    <li><span>GreatStack</span><br>JavaScript full course</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!------------------services---------------------->
+      
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Custom Front-End Development</h2>
+                        <p>Create dynamic, responsive user interfaces using React 
+                           and modern tools. I focus on clean code, usability, 
+                           and cross-device performance for apps and interactive websites.
+                        </p>
+                        <a href="projects.html">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Full-Stack Web Development</h2>
+                        <p>Build complete web solutions with backend functionality 
+                           and database integration. Ideal for dashboards, admin panels, 
+                           or feature-rich custom websites.
+                        </p>
+                        <a href="projects.html">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Custom WordPress Website Development</h2>
+                        <p>Build clean, responsive WordPress sites tailored to your brand. 
+                           I handle theme customization, plugin setup, and content layout 
+                           for business, blog, or e-commerce needs.
+                        </p>
+                        <a href="projects.html">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------------portfolio----------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Featured Projects</h1>
+                <!--featured project 1-->
+                <div class="f-projects">
+                    <div class="f-project">
+                        <img src="images/work-15.png" alt="Project 7 Screenshot" class="project-img">
+                        <div class="f-project-info">
+                            <h3><strong>Success by Design</strong></h3>
+                            <p><strong>Skills Used:</strong> WordPress Frontend Development, Content Layout Planning
+                                Form Integration, Mobile Responsiveness, Performance Optimization.</p>
+                            <a href="https://sbd.co.ke/" class="link">Go live</a>
+                        </div>
+                    </div>
+                    <div class="f-project-info-2">
+                        <p><strong>Success By Design</strong> is a personal growth and coaching platform built to help individuals 
+                            maximize their potential through tailored mentorship and training programs. The site reflects 
+                            the brand's uplifting mission and thoughtful approach.<br>
+                            As part of the development team at Kapu Digital Limited, I:<br>
+                            -Designing and structuring the frontend using WordPress, HTML, and CSS.<br>
+                            -Built responsive page layouts to present content clearly across all devices.<br>
+                            -Integrated plugins for blog functionality, contact forms, and easy content updates.<br>
+                            -Helped shape the site's content flow and tone, aligning it with the brand’s message of empowerment.<br>
+                            -Worked closely with the content and design teams to ensure visual harmony and brand consistency.<br>
+                            -Ensured the site was optimized for speed, usability, and future scalability.<br>
+                            
+                            This project let me take a hands-on role in creating a mission-driven website that inspires and informs.
+                        </p>
+                    </div>
+
+                    <!--featured project 2-->
+                    <div class="f-project">
+                        <img src="images/work-16.png" alt="Project 7 Screenshot" class="project-img">
+                        <div class="f-project-info">
+                            <h3><strong>Brush and Beyond</strong></h3>
+                            <p><strong>Skills Used:</strong> WordPress Theme Customization, Responsive Web Design, 
+                               UI Implementation, Plugin Integration, Cross-Browser Testing.
+                            </p>
+                            <a href="https://brushnbeyond.crownpaints.co.ke/" class="link">Go live</a>
+                        </div>
+                    </div>
+                    <div class="f-project-info-2">
+                        <p><strong>Brush & Beyond</strong> is a dynamic, campaign-driven website created to promote Crown Paints' 
+                            wide range of products, blending creativity and commercial appeal. The site was aimed 
+                            at driving engagement through vibrant visuals and structured messaging.<br>
+                            My contributions while at Kapu Digital Limited included:<br>
+                            -Custom design and theme customization in WordPress to match Crown’s brand identity.<br>
+                            -Implementing responsive layouts with HTML and CSS to ensure seamless performance on all devices.<br>         
+                            -Integrating gallery and contact plugins to support product discovery and customer inquiries.<br>        
+                            -Optimizing website performance for fast loading and smooth browsing.<br>
+                            -Conducting thorough cross-browser testing to ensure consistency.<br>   
+                            -Collaborating with designers and project managers to deliver on campaign goals.<br>       
+                            This project allowed me to bring a creative, campaign-focused vision to life through tailored WordPress development.
+                        </p>
+                    </div>
+                    <a href="projects.html" class="btn">See more</a>
+                </div>
+
+
+                <h1 class="sub-title">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Quote generator</h3>
+                            <p>A simple yet engaging web application designed 
+                               to inspire users by providing random quotes at the click of a button.</p>
+                                <a href="projects.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>     
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Car website</h3>
+                            <p>The Tesla Website Mirror replicates the official Tesla site,
+                               showcasing my skills in HTML, CSS, and JavaScript.</p>
+                            <a href="projects.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>     
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-8.png">
+                        <div class="layer">
+                            <h3>Eccomerce website</h3>
+                            <p>The E-commerce Website showcases my skills in JavaScript, HTML, CSS, 
+                               and dynamic content creation for seamless shopping.</p>
+                            <a href="projects.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="projects.html" class="btn">See more</a>
+            </div>
+        </div>
+
+
+
+        <!-------------contact----------------->
+
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>owenhempstone@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i></i> 0717097790</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/Owen.CV.2025.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Owen Onkwani.</p>
+            </div>
+        </div>
+
+
+        <script>
+
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+           
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+                
+            }
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzBfXkNUwl7cvdNkIxaEiJbCTa1BPJm4k5AO8_uECOxOWMMvVEr0NrWJlezyHnqQpIE/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>

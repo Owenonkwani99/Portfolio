@@ -6,12 +6,12 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Owen Onkwani',
+  role: 'Software Developer',
   picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
 
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Software Developer with strong foundations in Java, OOP, data structures  algorithms, backend logic, and relational databases. Skilled in building  scalable, secure, and maintainable applications. Hands-on experience in API development, debugging, testing, and working in collaborative teams. A fast learner dedicated to delivering clean, efficient software solutions.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com',
@@ -51,25 +51,22 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'HTML, CSS',
+  'MySQL, SQL (queries, optimization)',
   'JavaScript',
-  'TypeScript',
+  'Java (OOP, core libraries, Spring Boot)',
+  'Jakarta EE (Servlets, JSP)React',
+  'Spring Boot',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'TailwindCSS',
   'Git',
   'CI/CD',
   'Jest',
-  'Enzyme',
+  'Object-Oriented Programming (OOP)',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'owenhempstone@mail.com',
 }
 
 export { header, about, projects, skills, contact }

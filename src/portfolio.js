@@ -41,12 +41,12 @@ const projects = [
    // image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
   },
   {
-    name: 'My Notes',
+    name: 'kemmy-microservices',
     description:
-      'MyNotes is a full-stack note management platform built using Next.js and PostgreSQL. The application includes an SSR dashboard, Scholar analytics, and a clean user experience. Developed in collaboration with two other developers.',
-    stack: ['Next.js', 'PostgreSQL', 'Tailwind CSS'],
-    sourceCode: 'https://github.com/Owenonkwani99/MyNotes',
-    livePreview: 'https://github.com/Owenonkwani99/MyNotes',
+      'A scalable, event-driven backend built with Java Spring Boot and Spring Cloud, featuring modular microservices for product management, orders, inventory, and notifications. It leverages Docker, Kafka, and REST APIs for robust, maintainable, and easily deployable e-commerce solutions.',
+    stack: ['Java (Spring Boot)', 'Docker', 'Apache Kafka'],
+    sourceCode: 'https://github.com/Owenonkwani99/kemmy-microservices',
+    livePreview: 'https://github.com/Owenonkwani99/kemmy-microservices',
   },
 ]
 

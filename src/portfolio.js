@@ -12,10 +12,10 @@ const about = {
 
   description:
     'With strong foundations in Java, OOP, data structures  algorithms, backend logic, and relational databases. Skilled in building  scalable, secure, and maintainable applications. Hands-on experience in API development, debugging, testing, and working in collaborative teams. A fast learner dedicated to delivering clean, efficient software solutions.',
-  resume: 'https://example.com',
+  resume: 'https://drive.google.com/file/d/1nkxBuS-xFn_FB0rniHZ9jkAlGkaBGW5V/view?usp=drive_link',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/owen-onkwani-21560b263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    github: 'https://github.com/Owenonkwani99',
   },
 }
 
@@ -23,30 +23,30 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'HekimaBot',
     description:
       'HekimaBot is an intelligent Java-based chatbot that analyzes your documents and delivers context-aware responses using RAG and modern AI frameworks. Built with Vaadin, it offers a smooth interface and efficient real-time interactions.',
     stack: ['Java', 'Spring Boot', 'Vaadin'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    // image: 'cleanfolio.png',
+    sourceCode: 'https://github.com/Owenonkwani99/HekimaBot',
+    livePreview: 'https://github.com/Owenonkwani99/HekimaBot',
+    // image: 'portfolio.png',
   },
   {
-    name: 'Project 2',
+    name: 'IntegraBank',
     description:
       'A Java-based banking system built with Spring Boot, featuring secure account management, customer CRUD operations, deposits, withdrawals, and internal transfers. Designed as a RESTful API with built-in Swagger documentation and an H2 in-memory database for rapid development and testing.',
     stack: ['Java', 'Spring Boot', 'Spring Security'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Owenonkwani99/IntegraBank',
+    livePreview: 'https://github.com/Owenonkwani99/IntegraBank',
    // image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
   },
   {
-    name: 'Project 3',
+    name: 'My Notes',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'MyNotes is a full-stack note management platform built using Next.js and PostgreSQL. The application includes an SSR dashboard, Scholar analytics, and a clean user experience. Developed in collaboration with two other developers.',
+    stack: ['Next.js', 'PostgreSQL', 'Tailwind CSS'],
+    sourceCode: 'https://github.com/Owenonkwani99/MyNotes',
+    livePreview: 'https://github.com/Owenonkwani99/MyNotes',
   },
 ]
 

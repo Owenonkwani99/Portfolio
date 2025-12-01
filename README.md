@@ -1,84 +1,30 @@
-# Cleanfolio
+A personal developer portfolio built using React, showcasing my projects, skills, and experience.
+The goal of this website is to present my work professionally and provide an easy way for clients, recruiters, and collaborators to learn more about me.
 
-Cleanfolio is a portfolio template built with React. However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out [Cleanfolio Minimal](https://github.com/rjshkhr/cleanfolio-minimal).
+Features
 
-## Preview
+1.Responsive design – works on all devices
 
-[![Imgur](https://imgur.com/FwDMNEM.gif)](https://rjshkhr.github.io/cleanfolio)
+2.Modern UI built with React
 
-[Live Demo](https://rjshkhr.github.io/cleanfolio)
+3.Smooth navigation across all sections
 
-## Instructions
+4.Projects section showcasing my work
 
-### Setup
+5.About Me section with my background
 
-```shell
-git clone https://github.com/rjshkhr/cleanfolio
-cd cleanfolio
-```
+6.Contact section with direct reach options
 
-If you use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm), execute:
+7.Deployed on GitHub Pages
 
-```shell
-nvm install
-nvm use
-```
+Tech Stack
 
-Or:
+1.React.js
 
-```shell
-fnm install
-fnm use
-```
+2.JavaScript (ES6+)
 
-To install and launch the project, run these commands:
+3.HTML5 & CSS3
 
-```shell
-yarn
-yarn start
-```
+Node.js / npm
 
-### How to Use
-
-- Open the `public/index.html` file and replace:
-
-`<title>John Smith</title>` with `<title>Your Name</title>`.
-
-- Open the `src/portfolio.js` file and make the necessary changes.
-
-- Optionally, you can add an image or logo for each project in two ways:
-  1. **Local image**
-     - Put your image inside the `public/images/` folder
-     - In `portfolio.js`, just use the file name:
-      ```js
-      image: "cleanfolio.png"
-      ```
-
-  2. **Web image**
-     - If your image is already hosted online, just paste the URL:
-     ```js
-     image: "https://example.com/my-logo.png"
-     ```
-
-
-
-### Deployment
-
-- In the `package.json` file, update:
-
-`"homepage": "https://rjshkhr.github.io/cleanfolio"`
-
-to `"homepage": "https://yourusername.github.io"`.
-
-- Push the changes to your repository.
-
-- To build and deploy, run the following commands:
-
-```shell
-yarn build
-yarn deploy
-```
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Git & GitHub

@@ -1,7 +1,7 @@
 A personal developer portfolio built using React, showcasing my projects, skills, and experience.
 The goal of this website is to present my work professionally and provide an easy way for clients, recruiters, and collaborators to learn more about me.
 
-Features
+##Features
 
 1.Responsive design – works on all devices
 

@@ -17,7 +17,7 @@ The goal of this website is to present my work professionally and provide an eas
 
 7.Deployed on GitHub Pages
 
-Tech Stack
+##Tech Stack
 
 1.React.js
 
